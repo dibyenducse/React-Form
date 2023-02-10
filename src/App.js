@@ -1,6 +1,6 @@
 export default function Form({
   // Try 'submitting', 'error', 'success':
-  status = 'empty'
+  status = 'f'
 }) {
   if (status === 'success') {
     return <h1>That's right!</h1>
